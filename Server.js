@@ -14,7 +14,7 @@ app.use(cookieParser())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://mettube.netlify.app',
     credentials:true,
     methods:"GET,POST,PUT",
     allowedHeaders:'Content-Type,Authorization'
